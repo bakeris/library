@@ -12,10 +12,11 @@ gem 'rails-i18n'
 gem 'sqlite3', group: [:development, :test]
 
 # Use PostgreSQL as the database for Active Record
-# gem 'pg', group: :production
+gem 'pg', group: :production
 
 # Heroku deployment
 gem 'rails_12factor', group: :production
+gem 'thin', group: :production
 
 # Simple Form
 gem 'simple_form', github: 'plataformatec/simple_form'
